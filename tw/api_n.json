@@ -165,6 +165,17 @@
             "filterable": 0,
             "ext": "./lib/直播挂件2.json"
         },
+		{
+            "key": "csp_xBPQ_路飞",
+            "name": "☀路飞🔹秒播",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar":"./jar/sjc.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/路飞影视.json"
+        },
         {
             "key": "切片6",
             "name": "自用┃4K1",
