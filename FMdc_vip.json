@@ -1,20 +1,40 @@
 {
-    "warningText": "低调使用！！！",
+    "warningText": "8.1UP低调使用！！！",
     "urls": [
-        
-		{
-            "name": "📚【凯少线】｜本地仓库📚",
+{
+            "name": "📚【饭太硬线】📚",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
         },
-       
-     
-     
+{
+            "name": "📚【讴歌线路】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },
+{
+            "name": "📚【天微V飞龙】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },
+{
+            "name": "📚【王二小线】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },
+{
+            "name": "📚【凯少线】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },		
 		{
-            "name": "📚【拾光单包】｜本地仓库📚",
+            "name": "📚【小虎斑线】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },	
+		{
+            "name": "📚【香雅情线】📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        }, 
+		{
+            "name": "📚【拾光单包】📚",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%8B%BE%E5%85%89%E5%8D%95%E5%8C%85/api.json"
         },
-       {
-            "name": "📚【拾光大佬】",
+        {
+            "name": "📚【拾光大佬】📚",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/main/rhb/%E6%9C%AC%E5%9C%B0%E3%80%90%E6%8B%BE%E5%85%89%E5%A4%A7%E4%BD%AC%E3%80%91/api.json"
         }
     ]
