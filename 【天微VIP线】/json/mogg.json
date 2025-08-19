@@ -1,26 +1,29 @@
 {
-    "SiteUrl": "https://huban.banye.tech:7086",
+    "SiteUrl": "",
     "Domains": [
-        "http://103.45.162.207:20720"
+        "http://123.666291.xyz",
+        "https://123.91muou.icu",
+        "https://mo.666291.xyz",
+        "https://123.muouso.fun"
     ],
-    "SiteWord": "hb",
-    "SiteName": "虎斑",
+    "SiteWord": "mogg",
+    "SiteName": "木偶",
     "Classes": [
         {
-            "type_name": "小虎斑电影",
+            "type_name": "电影",
             "type_id": "1"
         },
         {
-            "type_name": "小虎斑剧集",
+            "type_name": "剧集",
             "type_id": "2"
         },
         {
-            "type_name": "小虎斑综艺",
+            "type_name": "动漫",
             "type_id": "3"
         },
         {
-            "type_name": "小虎斑动漫",
-            "type_id": "4"
+            "type_name": "天翼专区",
+            "type_id": "27"
         }
     ],
     "Filters": {
