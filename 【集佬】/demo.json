@@ -43,7 +43,6 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "api": "https://so.252035.xyz",
                 "limit": 3
             }
         },
@@ -56,98 +55,90 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "sites": "https://tg.252035.xyz",
                 "channel": "tgsearchers3"
             }
         },
         {
             "key": "csp_Pg夸克",
-            "name": "😏TG┃夸克",
+            "name": "😏PG┃夸克",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "PanjClub,guoman4K,alyp_1"
             }
         },
         {
             "key": "csp_Pg优熙",
-            "name": "😉TG┃优熙",
+            "name": "😉PG┃优熙",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "yunpanuc"
             }
         },
         {
             "key": "csp_Pg百度",
-            "name": "😌TG┃百度",
+            "name": "😌PG┃百度",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd"
             }
         },
         {
             "key": "csp_Pg123",
-            "name": "🙃TG┃123",
+            "name": "🙃PG┃123",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "zyfb123,xx123pan,zyzhpd123,yp123pan"
             }
         },
         {
             "key": "csp_Pg天翼",
-            "name": "🙂TG┃天翼",
+            "name": "🙂PG┃天翼",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd"
             }
         },
         {
             "key": "csp_Pg阿里",
-            "name": "🤕TG┃阿里",
+            "name": "🤕PG┃阿里",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "shareAliyun,zaihuayun"
             }
         },
         {
             "key": "csp_Pg移动",
-            "name": "😕TG┃移动",
+            "name": "😕PG┃移动",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "filters": "./lib/douban.json",
-                "sites": "https://tg.252035.xyz",
+                "filters": "./json/douban.json",
                 "channel": "yunpan139,ydypzyfx"
             }
         },
@@ -198,7 +189,7 @@
                 "type": "list"
             },
             "ext": {
-                "sites": "https://leijing.xyz",
+                "sites": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
                 "proxy": "noproxy",
                 "classes": "./json/leijing.json"
             }
@@ -355,6 +346,18 @@
             }
         },
         {
+            "key": "mifun",
+            "name": "🐸mifun｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
+                "datakey": "GETMIFUNGEIMIFUN"
+            }
+        },
+        {
             "key": "Max",
             "name": "❤️下饭┃Max",
             "type": 3,
@@ -363,7 +366,7 @@
             "quickSearch": 1,
             "api": "csp_AppYsV2",
             "ext": {
-                "api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
+                "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
                 "apisignkey": "lvdoutv-1.0.0"
             }
@@ -509,6 +512,17 @@
             "ext": {
                 "sites": ""
             }
+        },
+        {
+            "key": "采集之王",
+            "name": "🦚采集┃之王",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 1,
+            "ext": "./js/采集之王.js?type=url&params=../json/采集.json"
         },
         {
             "key": "AList",
