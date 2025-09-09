@@ -372,6 +372,14 @@
             }
         },
         {
+            "key": "狐狸磁力",
+            "name": "🧲狐狸┃磁力",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/狐狸磁力.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
             "key": "素白影院",
             "name": "🐼素白┃影院",
             "type": 3,
@@ -396,11 +404,27 @@
             "jar": "./jar/xbpq.jar"
         },
         {
-            "key": "追剧狂人",
-            "name": "😛追剧┃狂人",
+            "key": "80S电影",
+            "name": "😛80┃电影",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./xb/追剧狂人.json",
+            "ext": "./xb/80S电影.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "韩剧看看",
+            "name": "🇰🇷韩剧┃看看",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/韩剧看看.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "韩剧TV",
+            "name": "🇰🇷韩剧┃TV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/韩剧TV.json",
             "jar": "./jar/xbpq.jar"
         },
         {
@@ -444,10 +468,10 @@
             "type": 3
         },
         {
+            "key": "py_盘友圈",
+            "name": "🤒盘友┃搜索",
             "api": "./py/盘友圈.py",
             "filterable": 1,
-            "key": "py_盘友圈",
-            "name": "🤒盘友┃PY",
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
@@ -481,6 +505,29 @@
                 "type": "rect",
                 "ratio": 1.333
             }
+        },
+        {
+            "key": "csp_mtv",
+            "name": "🅱️MV┃音乐",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/mtv.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "爱上听书",
+            "name": "☔爱上┃听书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱上听书.js",
+            "playerType": "2"
         },
         {
             "api": "./py/YYMP3音乐网.py",
@@ -681,6 +728,8 @@
             "url": "自定义解析链接"
         }
     ],
+    "headers": [],
+    "hosts": [],
     "ads": [
         "static-mozai.4gtv.tv",
         "s3t3d2y8.afcdn.net"
