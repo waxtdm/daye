@@ -113,7 +113,7 @@
             "key": "路漫漫",
             "name": "路慢慢",
             "type": 3,
-            "api": "./py/路慢慢.py",
+            "api": "./py/路麻麻.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
