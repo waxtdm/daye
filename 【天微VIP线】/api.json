@@ -110,6 +110,17 @@
       }
     },
     {
+            "key": "路漫漫",
+            "name": "路慢慢",
+            "type": 3,
+            "api": "./py/路慢慢.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+    },
+    {
       "key": "天天影视",
       "name": "☀天天🔹影视",
       "type": 3,
