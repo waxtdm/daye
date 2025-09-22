@@ -143,6 +143,42 @@
             }
         },
         {
+            "key": "夸克推送",
+            "name": "👊夸克┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=quark"
+        },
+        {
+            "key": "百度推送",
+            "name": "✊百度┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=baidu"
+        },
+        {
+            "key": "UC推送",
+            "name": "☝️优熙┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=uc"
+        },
+        {
+            "key": "天翼推送",
+            "name": "✋天翼┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=tianyi"
+        },
+        {
+            "key": "123推送",
+            "name": "✌️123┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=123"
+        },
+        {
+            "key": "移动推送",
+            "name": "👍移动┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=mobile"
+        },
+        {
             "key": "csp_Douban",
             "name": "🥰豆瓣┃VOX",
             "type": 3,
@@ -150,6 +186,23 @@
             "searchable": 0,
             "changeable": 1,
             "ext": "./json/douban.json"
+        },
+        {
+            "key": "csp_Panta91",
+            "name": "🐹盘Ta┃YD",
+            "type": 3,
+            "api": "csp_Panta91",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.91panta.cn",
+                "proxy": "noproxy",
+                "classes": "./json/panta.json"
+            }
         },
         {
             "key": "csp_GuanYing",
@@ -162,6 +215,36 @@
                 "cookie": "",
                 "filters": "./json/guanying.json",
                 "sites": "https://www.gyg.la,https://www.gyg.si,https://www.gying.net,https://www.gying.org,https://www.gying.si,https://www.gying.in"
+            }
+        },
+        {
+            "key": "csp_BixBiy",
+            "name": "😗彼心┃网盘",
+            "type": 3,
+            "api": "csp_BixBiy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.bixbiy.com",
+                "proxy": "noproxy",
+                "classes": "./json/bixbiy.json"
+            }
+        },
+        {
+            "key": "csp_Wofox",
+            "name": "🐱4K┃Fox",
+            "type": 3,
+            "api": "csp_Wofox",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "",
+                "proxy": "noproxy"
             }
         },
         {
@@ -224,7 +307,7 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/jianpian.json",
-                "sites": "https://ij1men.slsw6.com"
+                "sites": "https://api.ztcgi.com"
             }
         },
         {
@@ -295,6 +378,19 @@
             }
         },
         {
+            "key": "木偶网盘",
+            "name": "🙄木偶┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://www.muou.site",
+                "proxy": "noproxy"
+            }
+        },
+        {
             "key": "至臻网盘",
             "name": "🤫至臻┃网盘",
             "type": 3,
@@ -334,18 +430,6 @@
             }
         },
         {
-            "key": "豆丁",
-            "name": "🥔豆丁┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "http://45.66.157.77:9427/dd.txt",
-                "datakey": "Xasdasd!123123dd"
-            }
-        },
-        {
             "key": "mifun",
             "name": "🐸mifun｜APP",
             "type": 3,
@@ -355,6 +439,19 @@
             "ext": {
                 "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
                 "datakey": "GETMIFUNGEIMIFUN"
+            }
+        },
+        {
+            "key": "云云",
+            "name": "☁️云云┃影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+                "datakey": "staraugust123456",
+                "api": 2
             }
         },
         {
@@ -372,19 +469,25 @@
             }
         },
         {
+            "key": "海狗视频",
+            "name": "🐶海狗┃视频",
+            "type": 3,
+            "api": "csp_Hmys",
+            "changeable": 0,
+            "ext": {
+                "host": "https://dy.stxbed.com",
+                "app_id": "shiguang",
+                "deviceid": "6b3927d7bbd112d6",
+                "versionCode": "20000",
+                "UMENG_CHANNEL": "guan"
+            }
+        },
+        {
             "key": "狐狸磁力",
             "name": "🧲狐狸┃磁力",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./xb/狐狸磁力.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "素白影院",
-            "name": "🐼素白┃影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/素白影院.json",
             "jar": "./jar/xbpq.jar"
         },
         {
@@ -436,6 +539,20 @@
             "jar": "./jar/xbpq.jar"
         },
         {
+            "key": "爱看资源网",
+            "name": "🐸爱看┃网盘",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱看资源网.js"
+        },
+        {
+            "key": "校长网盘",
+            "name": "👰校长┃网盘",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/校长网盘.js"
+        },
+        {
             "key": "泥泥视频",
             "name": "🍋泥泥┃视频",
             "type": 3,
@@ -448,6 +565,15 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/稀饭动漫.js"
+        },
+        {
+            "key": "py_4K影院",
+            "name": "🥭4K┃影院",
+            "api": "./py/4K影院.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
         },
         {
             "key": "py_饭团PY",
@@ -472,6 +598,15 @@
             "name": "🤒盘友┃搜索",
             "api": "./py/盘友圈.py",
             "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/米盘搜.py",
+            "filterable": 1,
+            "key": "py_米盘搜",
+            "name": "😳米盘┃搜索",
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
@@ -597,7 +732,7 @@
         },
         {
             "key": "商店",
-            "name": "🤡商店┃占位",
+            "name": "🤡商店┃更新",
             "type": 3,
             "api": "csp_Market",
             "searchable": 0,
@@ -616,11 +751,33 @@
     ],
     "doh": [
         {
+            "name": "DNSPod",
+            "url": "https://doh.pub/dns-query",
+            "ips": [
+                "119.29.29.29",
+                "119.28.28.28",
+                "2400:da00::6666",
+                "2400:da00:1::6666"
+            ]
+        },
+        {
+            "name": "Alidns",
+            "url": "https://dns.alidns.com/dns-query",
+            "ips": [
+                "223.5.5.5",
+                "223.6.6.6",
+                "2400:3200::1",
+                "2400:3200:baba::1"
+            ]
+        },
+        {
             "name": "Google",
             "url": "https://dns.google/dns-query",
             "ips": [
                 "8.8.4.4",
-                "8.8.8.8"
+                "8.8.8.8",
+                "2001:4860:4860::8888",
+                "2001:4860:4860::8844"
             ]
         },
         {
@@ -638,23 +795,29 @@
             "url": "https://dns.adguard.com/dns-query",
             "ips": [
                 "94.140.14.140",
-                "94.140.14.141"
+                "94.140.14.141",
+                "2a10:50c0::ad1:ff",
+                "2a10:50c0::ad2:ff"
             ]
         },
         {
             "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
+            "url": "https://dns.watch/dns-query",
             "ips": [
                 "84.200.69.80",
-                "84.200.70.40"
+                "84.200.70.40",
+                "2001:67c:2354:2::64",
+                "2001:67c:2354:3::64"
             ]
         },
         {
             "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
+            "url": "https://dns.quad9.net/dns-query",
             "ips": [
                 "9.9.9.9",
-                "149.112.112.112"
+                "149.112.112.112",
+                "2620:fe::fe",
+                "2620:fe::9"
             ]
         }
     ],
