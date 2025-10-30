@@ -29,8 +29,24 @@
             "type_id": "電影"
         },
         {
+            "type_name": "电影解说",
+            "type_id": "电影解说"
+        },
+        {
             "type_name": "電視劇",
             "type_id": "電視劇"
+        },
+        {
+            "type_name": "Tvbox",
+            "type_id": "Tbbox"
+        },
+        {
+            "type_name": "路由器",
+            "type_id": "路由器"
+        },
+        {
+            "type_name": "软件",
+            "type_id": "软件"
         },
         {
             "type_name": "演唱會",

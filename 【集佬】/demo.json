@@ -35,6 +35,14 @@
             "ext": "./json/feimaolive.json"
         },
         {
+            "key": "csp_PanShare",
+            "name": "😊我的┃网盘",
+            "type": 3,
+            "api": "csp_PanShare",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
             "key": "csp_TgDouban",
             "name": "🥳TG┃豆瓣",
             "type": 3,
@@ -244,7 +252,7 @@
             "changeable": 1,
             "ext": {
                 "sites": "",
-                "proxy": "noproxy"
+                "proxy": "proxy"
             }
         },
         {
@@ -327,6 +335,18 @@
             "changeable": 1
         },
         {
+            "key": "短剧AI",
+            "name": "🤔短剧┃AI",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
+            }
+        },
+        {
             "key": "csp_PanSou",
             "name": "🥺盘搜┃搜索",
             "type": 3,
@@ -360,7 +380,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "sites": "http://feimaoai.site",
+                "sites": "https://feimao666.fun",
                 "proxy": "noproxy"
             }
         },
@@ -404,19 +424,6 @@
             }
         },
         {
-            "key": "闪电网盘",
-            "name": "😡闪电┃网盘",
-            "type": 3,
-            "api": "csp_Wobg",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "sites": "http://1.95.79.193/",
-                "proxy": "noproxy"
-            }
-        },
-        {
             "key": "金牌影院",
             "name": "🥇金牌┃APP",
             "type": 3,
@@ -455,6 +462,44 @@
             }
         },
         {
+            "key": "布雷4KAPP",
+            "name": "🐼布雷｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt",
+                "datakey": "5f2b7ed203a3a581",
+                "api": 2
+            }
+        },
+        {
+            "key": "仓鼠4K",
+            "name": "🤑仓鼠｜App",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://hk421appcms.cs4k.top",
+                "datakey": "da61247f5b662597",
+                "api": "2"
+            }
+        },
+        {
+            "key": "囧次元动漫",
+            "name": "🐷囧囧｜次元",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "http://ys.xiaos12.cn",
+                "datakey": "chfgjfrhhf628vw1"
+            }
+        },
+        {
             "key": "Max",
             "name": "❤️下饭┃Max",
             "type": 3,
@@ -469,17 +514,16 @@
             }
         },
         {
-            "key": "海狗视频",
-            "name": "🐶海狗┃视频",
+            "key": "森林视频",
+            "name": "🌲森林┃App",
             "type": 3,
             "api": "csp_Hmys",
-            "changeable": 0,
             "ext": {
-                "host": "https://dy.stxbed.com",
-                "app_id": "shiguang",
-                "deviceid": "6b3927d7bbd112d6",
-                "versionCode": "20000",
-                "UMENG_CHANNEL": "guan"
+                "host": "https://dy.hengshengmy.com",
+                "app_id": "senlin",
+                "deviceid": "ce8bd1f9cd8cf302",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "semd10"
             }
         },
         {
@@ -488,6 +532,30 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./xb/狐狸磁力.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "夸克短剧",
+            "name": "🌽夸克┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/夸克短剧.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "夸克资源站",
+            "name": "🎁夸克┃资源",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/夸克资源站.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "啊哈DJ网",
+            "name": "🎵啊哈┃DJ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/啊哈DJ网.json",
             "jar": "./jar/xbpq.jar"
         },
         {
@@ -507,14 +575,6 @@
             "jar": "./jar/xbpq.jar"
         },
         {
-            "key": "80S电影",
-            "name": "😛80┃电影",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/80S电影.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
             "key": "韩剧看看",
             "name": "🇰🇷韩剧┃看看",
             "type": 3,
@@ -531,14 +591,6 @@
             "jar": "./jar/xbpq.jar"
         },
         {
-            "key": "麦田APP",
-            "name": "🙉麦田┃APP",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/麦田APP.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
             "key": "爱看资源网",
             "name": "🐸爱看┃网盘",
             "type": 3,
@@ -546,11 +598,25 @@
             "ext": "./js/爱看资源网.js"
         },
         {
-            "key": "校长网盘",
-            "name": "👰校长┃网盘",
+            "key": "夸克影视",
+            "name": "💕夸克┃影视",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/校长网盘.js"
+            "ext": "./js/夸克影视.js"
+        },
+        {
+            "key": "努努影院",
+            "name": "💋努努┃影院",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/努努影院.js"
+        },
+        {
+            "key": "人人电影",
+            "name": "👰人人┃电影",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/人人电影.js"
         },
         {
             "key": "泥泥视频",
@@ -657,21 +723,42 @@
             }
         },
         {
+            "key": "csp_bilirt",
+            "name": "🅱️儿童┃最爱",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/bilirt.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_bilims",
+            "name": "🅱️最爱┃美食",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/bilims.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
             "key": "爱上听书",
             "name": "☔爱上┃听书",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱上听书.js",
             "playerType": "2"
-        },
-        {
-            "api": "./py/YYMP3音乐网.py",
-            "filterable": 1,
-            "key": "py_YYMP3音乐网",
-            "name": "🤗音乐┃PY",
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
         },
         {
             "key": "csp_Jzb",
