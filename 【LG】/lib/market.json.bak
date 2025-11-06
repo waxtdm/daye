@@ -1,0 +1,60 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "爱在指尖DJ",
+                "url": "https://乐哥.xyz/APP/爱在指尖DJ.apk",
+                "icon": "https://d.kstore.dev/download/7996/tp/爱在指尖DJ_icon.png",
+                "version": "短剧"
+            }
+        ]
+    },
+    {
+        "name": "手机",
+        "list": [
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/mobile-arm64_v8a-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "8a-3.1.3"
+            },
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/mobile-armeabi_v7a-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "7a-3.1.3"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "list": [
+           
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/leanback-arm64_v8a-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "8a-3.1.3"
+            },
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/leanback-armeabi_v7a-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "7a-3.1.3"
+            },
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/OK影视-电视版-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "TV-3.13"
+            },
+            {
+                "name": "OK影视",
+                "url": "https://乐哥.xyz/APP/OK影视-电视版-自带X5-3.1.3.apk",
+                "icon": "https://乐哥.xyz/tp/icon.png",
+                "version": "X5-3.13"
+            }
+        ]
+    }
+]

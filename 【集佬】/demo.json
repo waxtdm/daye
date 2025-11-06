@@ -5,8 +5,10 @@
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "lives": [
         {
-            "name": "直播名字自定义",
-            "url": "直播链接自定义"
+            "name": "📡直播名字",
+            "type": 0,
+            "url": "直播地址",
+            "ua": ""
         }
     ],
     "sites": [
@@ -39,7 +41,7 @@
             "name": "😊我的┃网盘",
             "type": 3,
             "api": "csp_PanShare",
-            "searchable": 0,
+            "searchable": 1,
             "changeable": 0
         },
         {

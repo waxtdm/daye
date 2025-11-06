@@ -1,0 +1,385 @@
+{
+    "spider": "./jar/Lge.jar",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🔥关注公众号【乐哥追剧】",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "csp_Config",
+            "name": "👉配置┃中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "3Q",
+            "name": "🎞️3Q｜影视",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/3Q.json"
+        },
+        {
+            "key": "555｜影视",
+            "name": "🎞️555｜APP",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/xbpq_555App.json"
+        },
+        {
+            "key": "泥视频",
+            "name": "🎞️泥视频｜drpy_js",
+            "type": 3,
+            "api": "https://ricolj.github.io/zy/mb/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/泥视频.js"
+        },
+        {
+            "key": "4K影视",
+            "name": "🎞️4K｜影视",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/4K影视.json"
+        },
+        {
+            "key": "飞流视频",
+            "name": "🎞️飞流｜视频",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/飞流视频.json"
+        },
+        {
+            "key": "LIBVIO-xyq",
+            "name": "🎞️LIBVIO｜XYQ",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/LIBVIO-xyq.json"
+        },
+        {
+            "key": "影视大全",
+            "name": "🎞️大全｜影视",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./ziyong/影视大全.json"
+        },
+        {
+            "key": "新橘子",
+            "name": "🍊橘子┃APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/1687532407.txt",
+                "name": "新橘子影视",
+                "version": "4.2.0"
+            }
+        },
+        {
+            "key": "金牌影院",
+            "name": "🥇金牌┃APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+                "name": "金牌影院（请断网再安装）",
+                "version": "4.2.0"
+            }
+        },
+        {
+            "key": "羊羊学院",
+            "name": "🐑羊羊｜APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "ext": {
+                "host": "http://ht.zhenxun.love",
+                "name": "羊羊学院",
+                "version": "4.2.0"
+            }
+        },
+        {
+            "key": "动漫屋App",
+            "name": "🐸漫屋┃APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://www.yunwuee.icu",
+                "datakey": "ygcnb9bdcmb8aeiw"
+            }
+        },
+        {
+            "key": "囧次元动漫",
+            "name": "🐷囧囧｜次元",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "http://ys.xiaos12.cn",
+                "datakey": "chfgjfrhhf628vw1"
+            }
+        },
+        {
+            "key": "八天App",
+            "name": "🐷八天┃APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://dy.8ttv.cn/",
+                "datakey": "1111111111111111"
+            }
+        },
+        {
+            "key": "幕启GET",
+            "name": "🌸幕启┃星河",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+                "datakey": "37kj83zs1q16jk6t",
+                "api": 2
+            }
+        },
+        {
+            "key": "王子APP",
+            "name": "👰王子┃APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
+                "datakey": "5a9w6x58dsq6z3a6"
+            }
+        },
+        {
+            "key": "布雷4KAPP",
+            "name": "🐼布雷｜4K",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://cms.bl4k.cc",
+                "datakey": "B7uaxcwdpX2dww82"
+            }
+        },
+        {
+            "key": "仓鼠4K",
+            "name": "🤑仓鼠｜App",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "datakey": "da61247f5b662597",
+                "api": 2
+            }
+        },
+        {
+            "key": "云云",
+            "name": "☁️云云┃影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+                "datakey": "staraugust123456",
+                "api": 2
+            }
+        },
+        {
+            "key": "csp_Wogg",
+            "name": "💿玩偶┃哥哥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://wogg.xxooo.cf",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "欧歌网盘",
+            "name": "💿欧歌┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://woog.nxog.eu.org",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "蜡笔网盘",
+            "name": "💿蜡笔┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "http://www.labi88.sbs,https://feimao666.fun,http://feimao888.fun",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "二小网盘",
+            "name": "💿二小┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "http://2xiaopan.fun",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "木偶网盘",
+            "name": "💿木偶┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://www.muou.site",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "至臻网盘",
+            "name": "💿至臻┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://mihdr.top",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "闪电网盘",
+            "name": "💿闪电┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "http://1.95.79.193/",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "夸克盘搜",
+            "name": "🔍夸克｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "quark"
+            }
+        },
+        {
+            "key": "UC盘搜",
+            "name": "🔍UC｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "uc"
+            }
+        },
+        {
+            "key": "天翼盘搜",
+            "name": "🔍天翼｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "tianyi"
+            }
+        },
+        {
+            "key": "123盘搜",
+            "name": "🔍123｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "123"
+            }
+        },
+        {
+            "key": "百度盘搜",
+            "name": "🔍百度｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "baidu"
+            }
+        }
+    ],
+    "logo": "https://乐哥.xyz/logo/logo.gif",
+    "wallpaper": "https://深色壁纸.xxooo.cf/"
+}
