@@ -6,7 +6,7 @@ host: 'https://v.aikanbot.com',
 headers: {'User-Agent': MOBILE_UA},
 编码: 'utf-8',
 timeout: 5000,
-
+图片替换: 'http=>https://imgp.aikanbot.com/proxy?url=http',
 homeUrl: '/',
 url: '/hot/index-fyclass-fyfilter-p-fypage.html[/hot/index-fyclass-fyfilter.html]',
 filter_url: '{{fl.class or "热门"}}',
