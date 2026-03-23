@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "公众号[科技天微]限自用测试勿传播贩卖(0204更)",
+      "name": "公众号[科技天微]限自用测试勿传播贩卖",
       "type": 3,
       "api": "csp_AweSomeGuard",
       "searchable": 0,
@@ -1327,20 +1327,9 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     
-    
-     {
-      "name": "冰茶②",
-      "type": 0,
-      "url": "https://bc.188766.xyz/?ip=&mima=bingcha1130",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-   },
-   
    
        {
-      "name": "天微③",
+      "name": "天微②",
       "type": 0,
       "url": "./lib/kjtwzb.txt",
       "playerType": 2,
@@ -1356,17 +1345,9 @@
       "playerType": 2,
       "timeout": 10
     },
+   
     {
-      "name": "线路⑤",
-      "type": 0,
-      "url": "http://64.112.42.49:6688/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "ipv6⑥",
+      "name": "ipv6⑤",
       "type": 0,
       "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 2
