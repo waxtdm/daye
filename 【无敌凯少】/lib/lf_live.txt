@@ -1,0 +1,10 @@
+[
+    {
+        "name": "经典电视剧",
+        "url": "https://wp.kayyw.com/f/XOpgIZ/%E7%BB%8F%E5%85%B8%E7%94%B5%E8%A7%86%E5%89%A7.txt&&&https://ts3.tc.mm.bing.net/th/id/OIP-C.eMjXsGQ5CoObhRhp0NYYpgHaPk?ucfimg=1&dpr=3.3&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "name": "直播名",
+        "url": "直播地址&&&https://ts3.tc.mm.bing.net/th/id/OIP-C.eMjXsGQ5CoObhRhp0NYYpgHaPk?ucfimg=1&dpr=3.3&pid=ImgDetMain&o=7&rm=3"
+    }
+]
