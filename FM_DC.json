@@ -2,8 +2,28 @@
     "warningText": "11.23UP低调使用！！！",
     "urls": [
 		{
-            "name": "📚【天微vip线】📚",
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E3%80%90%E5%A4%A9%E5%BE%AEVIP%E7%BA%BF%E3%80%91/api.json"
-        }
+            "name": "📚【VOX线路】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90VOX%E7%BA%BF%E8%B7%AF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【饭太硬线】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90%E9%A5%AD%E5%A4%AA%E7%A1%AC%E7%BA%BF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【星微vip线】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90%E6%98%9F%E5%BE%AEvip%E7%BA%BF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【潇洒线路】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90%E6%BD%87%E6%B4%92%E7%BA%BF%E8%B7%AF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【讴歌线路】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90%E8%AE%B4%E6%AD%8C%E7%BA%BF%E8%B7%AF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【集多线路】📚",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/waxtdm/daye/refs/heads/main/%E6%9C%AC%E5%9C%B0%E3%80%90%E9%9B%86%E5%A4%9A%E7%BA%BF%E8%B7%AF%E3%80%91/api.json"
+        },
     ]
 }
