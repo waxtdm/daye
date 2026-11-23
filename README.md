@@ -1,2 +1,0 @@
-# daye
-dieye
